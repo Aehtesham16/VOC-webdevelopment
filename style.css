@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    display:flex;
+    background-color: blanchedalmond;
+}
+.navbar a {
+    font-size:18px;
+    color:#00abf0;
+    text-decoration:none;
+    font-weight:500;
+    margin-left:35px;
+    transition:3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:black;
+}
+.navlink{
+    padding-top:2%;
+    padding-left: 2%;
+}
+.search{
+    padding-top: 2%;
+    padding-left: 30%;
+}
+.cart{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.head{
+    position:relative;
+    font-size:50px;
+    padding-left: 20%;
+}
+.intern{
+    background:#162545;
+    color: white;
+    display:flex;
+}
+.intern2{
+    background:#162545;
+    color: white;
+    display:flex;
+}
+.intern3{
+    background:#162545;
+    color: white;
+    display:flex;
+    height:63vh;
+}
+.box1{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:300px;
+    height:45vh;
+    font-size: 25px;
+    padding-left:20%;
+    padding-top:5%
+}
+.box1{
+    
+    max-width:700px;
+}
+.box1 p{
+    position:relative;
+    font-size:30px;
+    margin:20px 0 40px;
+}
+.box1 p::before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:#162545;
+    animation:showRight 1s ease forwards;
+    animation-delay:1.6s;
+}
+.box2{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:300px;
+    height:50vh;
+    font-size: 25px;
+    padding-left:20%;
+    padding-top:5%
+}
+.box2{
+    
+    max-width:600px;
+}
+.box2 p{
+    position:relative;
+    font-size:30px;
+    margin:20px 0 40px;
+}
+.box2 p::before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:#162545;
+    animation:showRight 1s ease forwards;
+    animation-delay:1.6s;
+}
+.btn-box a{
+    position:relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:100%;
+    background:#00abf0;
+    border:2px solid #00abf0;
+    border-radius:8px;
+    font-size:19px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 5s;
+}
+.btn-box a::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background: black;
+    z-index: -1;
+    transition: 5s;
+}
+.btn-box a:hover::before{
+    width:100%;
+}
+.btn-box a:hover{
+    color:#162545;
+}
+.btn-box a::before{
+    background: #00abf0;
+}
+
+.img1{
+    padding-left: 25%;
+}
+.first{
+    display:flex;
+    background-color: blanchedalmond;
+}
+.first a {
+    font-size:18px;
+    color:#00abf0;
+    text-decoration:none;
+    font-weight:500;
+    margin-left:35px;
+    transition:3s;
+}
+.first a:hover,
+.first a.active{
+    color:black;
+}
+.navlink{
+    padding-top:2%;
+    padding-left: 2%;
+}
+.first h3{
+    padding-top:2%;
+}
+.mail{
+    font-size:25px;
+    padding: 1% 0 0 10%;
+}
+.img img{
+    width:50px;
+}
+.img{
+    padding-left: 40%;
+}
+.last{
+    padding-left: 40%;
+}
+.last a:hover,
+.last a.active{
+    color:#00abf0;
+}
+.last a {
+    font-size:18px;
+    color:black;
+    text-decoration:none;
+    font-weight:500;
+    transition:3s;
+}
+.btn-box2 a{
+    position:relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:100%;
+    background:#00abf0;
+    border:2px solid #00abf0;
+    border-radius:8px;
+    font-size:19px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 5s;
+}
+.btn-box2 a::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background: black;
+    z-index: -1;
+    transition: 5s;
+}
+.btn-box2 a:hover::before{
+    width:100%;
+}
+.btn-box2 a:hover{
+    color:#162545;
+}
+.btn-box2 a::before{
+    background: #00abf0;
+}
+/* KEYFRAMES ANIMATION */
+@keyframes showRight{
+    100% {
+        width: 0;
+    }
+}
